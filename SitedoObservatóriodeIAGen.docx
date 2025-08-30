@@ -1,0 +1,200 @@
+ESTRUTURA DO WEBSITE
+1. Cabeçalho Hero (Página Inicial)
+ Visual: Fundo abstrato unindo elementos de tecnologia (redes
+neurais, circuitos) e educação (livros, ícones midiáticos)
+ Slogan: "Monitorando o impacto da Inteligência Artificial na
+Educação e Mídia"
+ Elementos-Chave:
+o Introdução breve: "Iniciativa do Laboratório de Mídia e
+Educação (LMD) para análise crítica da IA"
+o Estatísticas dinâmicas (ex: "X Workshops Realizados", "Y
+Parcerias Internacionais")
+o Botões de ação: "Ver Atividades", "Acessar Publicações"
+2. Sobre Nós
+ Subseções:
+o Missão: "Promover letramento crítico sobre IA na educação e
+mídia através de pesquisa e formação"
+o Conexão com o LMD: Logo + breve descrição do Laboratório
+como instituição responsável
+o Equipe: Fotos e perfis dos pesquisadores e técnicos
+o Histórico: Linha do tempo com marcos (fundação, eventos
+importantes)
+o Design: Ícones temáticos (pesquisa, tecnologia, educação)
+o 3. Atividades
+o Destaques em Cards:
+o Web Scraping: "Coleta ética de dados para pesquisa
+educacional"
+o Design de Prompts: "Estratégias para comunicação eficaz
+com IA"
+o Reconhecimento de Deepfakes: "Engenharia reversa para
+identificar mídia sintética"
+o Seminários Internacionais: "Diálogos globais sobre IA na
+educação"
+o Formato: Grid interativo com materiais para download (slides,
+guias)
+4. Publicações
+ Categorias:
+
+
+--- PAGE 1 ---
+
+o Artigos Científicos (com revisão por pares)
+o Policy Briefs (para gestores educacionais)
+o Relatórios de Workshops
+o Análises de Mídia (ex: "IA no jornalismo brasileiro")
+ Filtros: Por tema/ano/tipo. Links para DOI/PDF.
+5. Parceiros
+ Visualização: Mural de logos interativo
+ Grupos:
+
+o Academia: Universidades e laboratórios associados
+o Internacionais: Parcerias com instituições estrangeiras
+o Redes Educacionais: Escolas e secretarias de educação
+o Organizações de Mídia
+ Destaque: Breve descrição das colaborações (ex: seminários
+conjuntos)
+6. Notícias
+ Conteúdo:
+o Atualizações do Observatório
+o Análises de tendências em IA/educação
+o Conquistas da equipe (prêmios, participações)
+ Formato: Blog com opções de compartilhamento + inscrição para
+newsletter
+7. Recursos (Seção Recomendada)
+ Ferramentas Práticas:
+o Guias para download (ex: "Identificando Deepfakes em 5
+Passos")
+o Glossário de termos técnicos
+o Links para datasets e frameworks de ética em IA
+8. Contato
+ Componentes:
+o E-mails setoriais (pesquisa, workshops, imprensa)
+o Redes sociais (LinkedIn, Twitter)
+o Formulário para solicitação de eventos
+
+
+--- PAGE 2 ---
+
+o Endereço físico (se aplicável)
+Recomendações de Design
+ Paleta de Cores:
+o Primária: Azul profundo (#0A2463) + cores do LMD
+o Destaques: Verde-tecnológico (#4ECDC4) + Laranja-
+educacional (#FF6B6B)
+ Tipografia:
+o Títulos: Montserrat (moderna)
+o Texto: Open Sans (alta legibilidade)
+ Recursos Técnicos:
+o Busca inteligente (publicações/eventos)
+o Calendário de atividades
+o Galeria multimídia (vídeos de palestras)
+o Design responsivo (mobile-first)
+o Modo escuro/acessibilidade
+Wireframe Básico da Home
+text
+[NAVEGAÇÃO] Logo | Sobre | Atividades | Publicações | Parceiros | Notícias |
+Recursos | Contato
+[HERO] Slogan + Estatísticas + Botões
+[EM DESTAQUE] Últimas notícias/eventos
+[ATIVIDADE RECENTE] Ex: Workshop de Deepfakes
+[PUBLICAÇÕES RECOMENDADAS] 2 estudos relevantes
+[MURAL DE PARCEIROS]
+[NEWSLETTER] "Receba nossas atualizações"
+[RODAPÉ] Logo LMD, contatos rápidos, redes sociais
+FLUXO DE NAVEGAÇÃO (SITEMAP HIERÁRQUICO)
+1. PÁGINA INICIAL (index.html)
+- Conteúdo Principal:
+- Hero section (apresentação + CTAs)
+
+
+--- PAGE 3 ---
+
+- Bloco de atividades em destaque (3 cards com links para páginas
+específicas)
+- Bloco de últimas publicações (3 itens com link para "Publicações")
+- Bloco de notícias recentes (3 cards com link para "Notícias")
+- Mural de parceiros (logos clicáveis que levam à seção "Parceiros")
+- Newsletter signup
+2. SOBRE NÓS (sobre.html)
+- Subpáginas:
+- Missão e Visão (sobre/missao.html)
+- Histórico (sobre/historico.html) - com linha do tempo interativa
+- Equipe (sobre/equipe.html) - perfis dos membros (foto, bio, redes)
+- LMD (sobre/lmd.html) - descrição do laboratório e vínculo institucional
+3. ATIVIDADES (atividades.html)
+- Subpáginas por Categoria:
+- Workshops (atividades/workshops.html)
+- Subpáginas específicas:
+- Web Scraping (atividades/workshops/webscraping.html)
+- Prompt Design (atividades/workshops/prompt-design.html)
+- Reconhecimento de Deepfakes (atividades/workshops/deepfakes.html)
+- Seminários (atividades/seminarios.html)
+- *Subpáginas por evento:*
+- Seminário Internacional [Ano] (ex: atividades/seminarios/2024.html)
+- Eventos Futuros (atividades/eventos-futuros.html) - calendário integrado
+4. PUBLICAÇÕES (publicacoes.html)
+- Filtros:
+- Por tipo (artigos, policy briefs, relatórios)
+- Por tema (educação, jornalismo, ética em IA)
+- Por ano
+- Subpáginas:
+- Detalhe de Publicação (publicacoes/[id-publicacao].html) - com abstract,
+autores, download
+5. PARCEIROS (parceiros.html)
+- Organização:
+
+
+--- PAGE 4 ---
+
+- Nacionais (acadêmicos, governamentais)
+- Internacionais (com bandeiras)
+- Mídia
+- Subpáginas:
+- Perfil do Parceiro (parceiros/[nome-parceiro].html) - descrição da
+colaboração
+6. NOTÍCIAS (noticias.html)
+- Layout:
+- Listagem cronológica (mais recentes primeiro)
+- Categorias: "Notícias do Observatório", "Análises", "Imprensa"
+- Subpáginas:
+- Post Completo (noticias/[slug-noticia].html)
+7. RECURSOS (recursos.html)
+- Subseções:
+- Guias Práticos (recursos/guias.html) - lista de materiais para download
+- Glossário (recursos/glossario.html) - termos de IA com definições
+- Links Úteis (recursos/links.html) - curadoria de ferramentas e frameworks
+8. CONTATO (contato.html)
+- Conteúdo:
+- Formulário de contato (assunto: colaboração, workshop, imprensa)
+- E-mails setoriais (tabela organizada)
+- Redes sociais
+- Mapa de localização (se aplicável)
+FLUXOS DE USUÁRIO PRIORITÁRIOS
+Pesquisador buscando publicações:
+Educador interessado em workshops:
+
+
+--- PAGE 5 ---
+
+Parceiro em potencial:
+Imprensa buscando informações:
+RECURSOS DE ENGAJAMENTO
+1. Home:
+Banner rotativo com próximos eventos
+Assinatura newsletter (10% de desconto em workshops)
+2. Páginas de Conteúdo:
+"Leitura recomendada" no final de artigos
+"Você sabia?" com fatos sobre IA na educação
+3. Elementos Persuasivos:
+Selos de credibilidade (parcerias institucionais)
+Depoimentos de participantes
+Contador de impactos ("500+ educadores capacitados")
+Diagrama
+
+
+--- PAGE 6 ---
+
+
+
+--- PAGE 7 ---
+
